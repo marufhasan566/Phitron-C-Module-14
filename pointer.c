@@ -6,7 +6,7 @@ int main()
     // reference
     int *p = &x;
     printf("%p\n", p);
-    // dereferece
+    // dereference
     printf("%d\n", *p);
     *p = 20;
     printf("%d", x);
